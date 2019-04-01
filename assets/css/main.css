@@ -1,0 +1,31 @@
+body {
+background: #EEEEE0;
+}
+
+.text-blue {
+	color: #0051a3;
+	font-family: "ubuntu";
+}
+
+.text-yellow {
+	color: #F7EE05;
+	font-family: "ubuntu";
+}
+
+.button--blue {
+    background-color: #0051a3;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    cursor: pointer;
+	font-weight: 700;
+	border-radius: 0;
+}
+
+.button--blue:hover {
+    background-color: #ffffff;
+    color: #0051a3;
+    border: 2px solid transparent;
+}
